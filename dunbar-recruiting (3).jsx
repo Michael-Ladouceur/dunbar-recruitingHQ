@@ -1298,10 +1298,10 @@ export default function DunbarRecruiting() {
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 16, justifyContent: "center", marginBottom: 40 }}>
               {[
-                { icon: "📣", label: "Exposure to college coaches" },
-                { icon: "🏕️", label: "Camp & event announcements" },
-                { icon: "🤝", label: "Recruiting connections" },
-                { icon: "📊", label: "Tips & strategy updates" },
+                { label: "Exposure to college coaches" },
+                { label: "Camp & event announcements" },
+                {  label: "Recruiting connections" },
+                {  label: "Tips & strategy updates" },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 8, background: "rgba(255,107,0,0.06)", border: "1px solid rgba(255,107,0,0.12)", padding: "10px 18px" }}>
                   <span style={{ fontSize: 16 }}>{item.icon}</span>
